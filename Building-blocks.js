@@ -18,3 +18,6 @@ a width of `2` a length of `4` and a height of `6`:
   b.getVolume() // -> 48
   b.getSurfaceArea() // -> 88
 */
+
+
+// Solution
