@@ -40,3 +40,14 @@ class Block {
 }
 
 // or
+
+function Block([w,l,h]){
+  var v = h*l*w, a = 2*h*w + 2*(h+w)*l;
+  return {
+    getWidth : () => w,
+    getLength : () => l,
+    getHeight : () => h,
+    getVolume : () => v,
+    getSurfaceArea : () => a
+  }
+}
